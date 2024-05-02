@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> JS Functions & Events </title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+  <div class="one"> 
+
+  <h1> JS Functions & Events </h1>
+  <br>
+  <p>
+    A JavaScript function is a block of code designed to perform a particular task.
+    <br>
+    A JavaScript function is executed when "something" invokes it (calls it).
+    <br>
+    HTML events are "things" that happen to HTML elements.
+    <br>
+    When JavaScript is used in HTML pages, JavaScript can "react" on these events. 
+  </p>
+
+  </div>
+  
+  <div class="text-img">
+
+    <div class="btns">
+
+      <button onmouseover=" chnageimg()">  Button </button>
+      <button onmouseover=" chnageimg2()"> Button </button>
+      <button onmouseover=" chnageimg3()"> Button </button>
+      <button onmouseover=" chnageimg4()"> Button </button>
+      <button onmouseover=" chnageimg5()"> Button </button>
+
+    </div>
+
+    <div class="img">
+
+      <img src="images/aa.jpg" id="images">
+
+    </div>
+
+    </div>
+
+  <script>
+
+    let images = document.getElementById("images")
+
+    function chnageimg2()
+    {
+      images.src = "images/ab.jpg";
+    }
+
+    function chnageimg3()
+    {
+      images.src = "images/ac.jpg";
+    }
+    
+    function chnageimg4()
+    {
+      images.src = "images/ad.jpg";
+    }
+
+    function chnageimg5()
+    {
+      images.src = "images/ae.jpg";
+    }
+
+  </script>
+
+
+</body>
+</html>
